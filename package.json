@@ -6,6 +6,7 @@
   "author": "Paulo Ferreira",
   "private": true,
   "scripts": {
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue ./",
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
