@@ -50,6 +50,7 @@ Esse projeto utiliza as seguintes bibliotecas:
 * [Vue Router](https://router.vuejs.org/): Gerenciamento das rotas
 * [Typescript](https://www.typescriptlang.org/): Biblioteca de tipagem
 * [Vitest](https://vitest.dev/): Teste de unidade
+* [Quasar Testing](https://testing.quasar.dev/packages/unit-vitest/): Extensão para teste de unidade com Vitest e Quasar
 * [Cypress](https://www.cypress.io/): Teste end-to-end
 
 ## Estrutura de arquivos
