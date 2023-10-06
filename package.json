@@ -1,0 +1,45 @@
+{
+  "name": "bimob-web",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Bimob",
+  "author": "Paulo Ferreira",
+  "private": true,
+  "scripts": {
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue ./",
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "test": "echo \"See package.json => scripts for available tests.\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "test:unit": "vitest",
+    "test:unit:ci": "vitest run"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.6",
+    "quasar": "^2.12.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.6.2",
+    "@quasar/quasar-app-extension-testing-unit-vitest": "^0.4.0",
+    "@types/node": "^20.5.9",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.48.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.17.0",
+    "typescript": "^5.2.2",
+    "@vue/test-utils": "^2.4.1",
+    "vitest": "^0.34.0"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
